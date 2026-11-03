@@ -60,7 +60,7 @@ function serve() {
     const mp4 = path.join(OUT, 'life-hub-park.mp4');
     const args = ['-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', path.join(dir, '%05d.jpg')];
     if (fs.existsSync(audio)) args.push('-i', audio, '-c:a', 'aac', '-b:a', '192k', '-shortest');
-    args.push('-c:v', 'libx264', '-preset', 'slow', '-crf', '19', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', mp4);
+    args.push('-c:v', 'libx264', '-preset', 'slow', '-crf', '25', '-maxrate', '10M', '-bufsize', '20M', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', mp4);
     execFileSync('ffmpeg', args, { stdio: 'inherit' });
     execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', mp4, '-vf', 'scale=1280:720', '-c:v', 'libx264', '-preset', 'slow',
       '-crf', '23', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', mp4.replace('.mp4', '-720p.mp4')], { stdio: 'inherit' });

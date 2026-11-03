@@ -45,3 +45,7 @@ You can change the location and narration timings in `config.json`, and the narr
 - **Satellite imagery:** © Esri, Maxar, Earthstar Geographics. Credited on screen. Check Esri's terms of use before paid advertising.
 - **Narration:** Microsoft Edge TTS via the unofficial `edge-tts` tool. For paid campaigns, consider re-voicing with a licensed TTS service or a voice actor (same script).
 - **Music and sound effects:** synthesized in `make_audio.py`, so there are no third-party rights.
+
+## Claude Code skills
+
+`.claude/skills/` contains the official Remotion agent skills (from [remotion-dev/skills](https://github.com/remotion-dev/skills), v4.0.540). They load automatically in Claude Code sessions in this repo. Remotion is free for individuals and small companies, but larger companies need a paid licence: see `.claude/skills/remotion-license`.
