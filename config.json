@@ -1,0 +1,18 @@
+{
+  "target": {
+    "lat": 24.1452741,
+    "lon": 55.6924931,
+    "nameAr": "لايف هب بارك",
+    "nameEn": "LIFE HUB PARK"
+  },
+  "maxZoom": 19,
+  "voice": {
+    "vo1": 1.0,
+    "vo2": 5.4,
+    "vo3": 9.6,
+    "vo4": 15.4,
+    "vo5": 19.4,
+    "vo6": 26.6
+  },
+  "duration": 35
+}

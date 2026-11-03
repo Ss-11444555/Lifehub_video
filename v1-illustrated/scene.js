@@ -18,7 +18,7 @@
   const CONFIG = {
     brand: ['Life', 'Hub'],                 // wordmark, second part drawn in the accent colour
     showWordmark: true,                     // set false if your logo image already contains the name
-    logoSrc: 'assets/logo.png',             // optional: drop your real logo here (transparent PNG)
+    logoSrc: '../assets/logo.png',             // optional: drop your real logo here (transparent PNG)
     placeAr: 'زاخر، العين',
     placeEn: 'ZAKHER  ·  AL AIN  ·  UAE',
     countryAr: 'الإمارات العربية المتحدة',

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LifeHub Location Video</title>
+<style>
+  @font-face { font-family: 'Cairo'; font-weight: 400; src: url(../assets/fonts/cairo-arabic-400.woff2) format('woff2'); unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C-200E; }
+  @font-face { font-family: 'Cairo'; font-weight: 700; src: url(../assets/fonts/cairo-arabic-700.woff2) format('woff2'); unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C-200E; }
+  @font-face { font-family: 'Cairo'; font-weight: 900; src: url(../assets/fonts/cairo-arabic-900.woff2) format('woff2'); unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+200C-200E; }
+  @font-face { font-family: 'Cairo'; font-weight: 400; src: url(../assets/fonts/cairo-latin-400.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2000-206F; }
+  @font-face { font-family: 'Cairo'; font-weight: 700; src: url(../assets/fonts/cairo-latin-700.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2000-206F; }
+  @font-face { font-family: 'Cairo'; font-weight: 900; src: url(../assets/fonts/cairo-latin-900.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2000-206F; }
+  html, body { margin: 0; height: 100%; background: #0b1410; }
+  body { display: grid; place-items: center; overflow: hidden; }
+  canvas { width: min(100vw, calc(100vh * 16 / 9)); height: auto; display: block; cursor: pointer; }
+</style>
+</head>
+<body>
+<canvas id="stage" width="1920" height="1080"></canvas>
+<script src="scene.js"></script>
+</body>
+</html>
