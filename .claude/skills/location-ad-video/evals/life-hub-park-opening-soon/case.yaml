@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: life-hub-park-opening-soon
+expected_outcome: |
+  Two MP4s (1920x1080 and 1080x1920, ~20 s, with audio) that start on the Earth with an Arabic hook,
+  fly down to 24.14527, 55.69249 in Zakher, drop a pin on the site, show family/kids, sports and events
+  cards, and end on the sign photo with "الافتتاح قريباً". Emirati male Arabic narration, no invented claims
+  (no dates, prices or features beyond those given).
+context:
+  scaffold_script: place-files.sh

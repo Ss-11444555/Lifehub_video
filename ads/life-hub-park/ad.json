@@ -1,0 +1,130 @@
+{
+  "name": "life-hub-park",
+  "target": {
+    "lat": 24.1452741,
+    "lon": 55.6924931
+  },
+  "maxZoom": 19,
+  "duration": 20,
+  "formats": [
+    "1920x1080",
+    "1080x1920"
+  ],
+  "beats": {
+    "space": 0,
+    "country": 2.4,
+    "city": 4.4,
+    "district": 6.4,
+    "site": 8.6,
+    "offers": 11.0,
+    "end": 15.9
+  },
+  "brand": {
+    "nameAr": "لايف هب بارك",
+    "nameEn": "LIFE HUB PARK",
+    "logo": "assets/logo-sign.jpg",
+    "logoKind": "photo",
+    "accent": "#d9b46a"
+  },
+  "hook": {
+    "ar": "شيء جديد قادم إلى العين",
+    "en": "SOMETHING NEW IS COMING TO AL AIN"
+  },
+  "places": [
+    {
+      "level": "country",
+      "lat": 23.75,
+      "lon": 54.4,
+      "ar": "الإمارات العربية المتحدة",
+      "en": "UNITED ARAB EMIRATES"
+    },
+    {
+      "level": "city",
+      "lat": 24.2075,
+      "lon": 55.7447,
+      "ar": "العين",
+      "en": "AL AIN"
+    },
+    {
+      "level": "landmark",
+      "lat": 24.06,
+      "lon": 55.775,
+      "ar": "جبل حفيت",
+      "en": "JEBEL HAFEET"
+    },
+    {
+      "level": "district",
+      "lat": 24.1525,
+      "lon": 55.7015,
+      "ar": "زاخر",
+      "en": "ZAKHER"
+    }
+  ],
+  "offers": [
+    {
+      "icon": "family",
+      "ar": "مساحات للعائلات والأطفال",
+      "en": "FAMILY & KIDS"
+    },
+    {
+      "icon": "sports",
+      "ar": "رياضة ونشاطات",
+      "en": "SPORTS"
+    },
+    {
+      "icon": "events",
+      "ar": "فعاليات مميزة",
+      "en": "EVENTS"
+    }
+  ],
+  "cta": {
+    "ar": "الافتتاح قريباً",
+    "en": "OPENING SOON",
+    "subAr": "زاخر · العين",
+    "subEn": "ZAKHER  ·  AL AIN  ·  UAE"
+  },
+  "voice": {
+    "name": "ar-AE-HamdanNeural",
+    "rate": "+2%"
+  },
+  "script": [
+    {
+      "id": "hook",
+      "beat": "space",
+      "offset": 0.3,
+      "subtitle": false,
+      "text": "شيءٌ جديدٌ قادمٌ للعين!"
+    },
+    {
+      "id": "district",
+      "beat": "district",
+      "offset": 0.1,
+      "text": "في قلبِ زاخر..."
+    },
+    {
+      "id": "site",
+      "beat": "site",
+      "offset": 0.5,
+      "subtitle": false,
+      "text": "لايف هَب بارك."
+    },
+    {
+      "id": "offers",
+      "beat": "offers",
+      "offset": 0.2,
+      "text": "للعائلةِ والأطفال... رياضةٌ وفعالياتٌ لا تُنسى!"
+    },
+    {
+      "id": "end",
+      "beat": "end",
+      "offset": 0.5,
+      "subtitle": false,
+      "text": "لايف هَب بارك... الافتتاحُ قريباً!"
+    }
+  ],
+  "music": {
+    "bpm": 100,
+    "mode": "major",
+    "root": 50
+  }
+}
